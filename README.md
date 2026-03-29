@@ -51,7 +51,7 @@ Ray Tune · TensorFlow/Keras · Optuna · ASHA · Python
 ```bash
 # Run architecture search
 python nas_search.py \
-    --data_path ./data/DNN_samples_v4.pkl \
+    --data_path ./data/dataset.pkl \
     --num_samples 50 \
     --max_epochs 30 \
     --num_cpus 4 \
