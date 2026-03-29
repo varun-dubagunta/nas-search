@@ -59,6 +59,6 @@ python nas_search.py \
 
 # Train best found configuration to convergence
 python train_best.py \
-    --data_path ./data/DNN_samples_v4.pkl \
+    --data_path ./data/dataset.pkl \
     --epochs 100
 ```
